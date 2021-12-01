@@ -1,7 +1,7 @@
 package com.afs.oopractice;
 
 public class Driver {
-  private Vehicle vehicle;
+  private final Vehicle vehicle;
 
   public Driver(Vehicle vehicle) {
     this.vehicle = vehicle;
